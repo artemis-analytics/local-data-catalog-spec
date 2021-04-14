@@ -31,8 +31,11 @@ uuid -> dcat:identifier
 ## Metadata
 
 Recommendation is to adopt DCAT vocabulary (or schema) as much as possible.
+
 [Data Catalog Vocabulary (DCAT) Version 2](https://www.w3.org/TR/vocab-dcat-2/)
+
 [Reference for DCAT in the US Federal gov, examples below] (resources.data.gov/resources/dcat-us)
+
 [Stat-DCAT Application Profile](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/statdcat-application-profile-data-portals-europe)
 
 Metadata - use dcat vocabulary (required and recommended where possible) along with yaml.
@@ -88,7 +91,7 @@ Publisher The publishing entity and optionally their parent organization(s). Alw
 </code>
 
 **contactPoint**   
-Contact Name and Email Contact personís name and email for the asset. Always.   
+Contact Name and Email Contact person‚Äôs name and email for the asset. Always.   
  <code>
  "contactPoint": {
                 "@type": "vcard:Contact",
@@ -111,7 +114,7 @@ Public Access Level The degree to which this dataset could be made publicly-avai
 Example `{"accessLevel":"public"}` 
 
 **rights**  
-Rights This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected ìaccessLevelî including instructions for how to access a restricted file, if applicable, or explanation for why a ìnon-publicî or ìrestricted publicî data asset is not ìpublic,î if applicable. Text, 255 characters. If-Applicable 
+Rights This may include information regarding access or restrictions based on privacy, security, or other policies. This should also serve as an explanation for the selected ‚ÄúaccessLevel‚Äù including instructions for how to access a restricted file, if applicable, or explanation for why a ‚Äúnon-public‚Äù or ‚Äúrestricted public‚Äù data asset is not ‚Äúpublic,‚Äù if applicable. Text, 255 characters. If-Applicable 
 URL to data sharing agreement.  
 Example `{"rights":"This dataset contains Personally Identifiable Information and could not be released for public access."}` 
 
@@ -190,7 +193,7 @@ Format A human-readable description of the file format of a distribution. No
 Example `{"format":"CSV"}` 
 
 **mediaType**  
-Media Type The machine-readable file format (IANA Media Type or MIME Type) of the distributionís downloadURL. If-Applicable 
+Media Type The machine-readable file format (IANA Media Type or MIME Type) of the distribution‚Äôs downloadURL. If-Applicable 
 Example `{"mediaType":"text/csv"}` 
 
 **title**  
