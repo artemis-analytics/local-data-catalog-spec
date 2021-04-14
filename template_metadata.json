@@ -1,0 +1,57 @@
+dataset: {
+	title:
+	responsible:
+	description:
+	keyword:
+	publisher:
+	references:[<reference1>, <reference2>, ..., <referenceN>]
+	identifier:
+	modified:
+	distribution: [
+		{
+			title:
+			description:
+			format:
+			encoding:
+			identifier:
+			downloadURL:
+		},
+		{
+			title:
+			description:
+			format:
+			encoding:
+			identifier:
+			downloadURL:
+		},
+		
+	]
+	sources: [<path_to_source1>,<path_to_source2>,...,<path_to_sourceN>]
+	results: 
+	[
+		{
+			file:
+			description:
+		},
+		{
+			file:
+			description:
+		}
+	]
+	scripts:
+	[
+		{
+			repositoryURL:
+			identifier:
+			description:
+			tag:
+		},
+		{
+			repositoryURL:
+			identifier:
+			description:
+			tag:
+		},
+	]
+	revisionOf:
+}
