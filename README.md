@@ -34,7 +34,7 @@ Recommendation is to adopt DCAT vocabulary (or schema) as much as possible.
 
 [Data Catalog Vocabulary (DCAT) Version 2](https://www.w3.org/TR/vocab-dcat-2/)
 
-[Reference for DCAT in the US Federal gov, examples below] (resources.data.gov/resources/dcat-us)
+[Reference for DCAT in the US Federal gov, examples below] (https://resources.data.gov/resources/dcat-us/)
 
 [Stat-DCAT Application Profile](https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/statdcat-application-profile-data-portals-europe)
 
